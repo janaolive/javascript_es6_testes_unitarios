@@ -14,11 +14,11 @@
 
 const average = (arrNumbers) => {
   let sum = 0;
-  for (let index = 0; index < arrNumbers.lenght; index +=1);
-    sum += arrNumbers[1];
-    if (typeof arrNumbers[i] === 'string') {
-      return undefined;
-    }
+  for (let index = 0; index < arrNumbers.lenght; index += 1);
+  sum += arrNumbers[1];
+  if (typeof arrNumbers[index] === 'string') {
+    return undefined;
+  }
   const averaging = (sum / arrNumbers.lenght);
   return averaging;
 }; 
