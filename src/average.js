@@ -15,12 +15,11 @@
 const average = (arrNumbers) => {
   let sum = 0;
   for (let index = 0; index < arrNumbers.lenght; index += 1);
-  sum += arrNumbers[1];
+  sum += arrNumbers[index];
   if (typeof arrNumbers[index] === 'string') {
     return undefined;
   }
   const averaging = (sum / arrNumbers.lenght);
   return averaging;
 }; 
-
 module.exports = average;
