@@ -17,10 +17,11 @@
 */
 
 const vqv = (nome, idade) => {
-  return `Oi, meu nome é ${nome};
+  let message = (`Oi, meu nome é ${nome};
   Tenho ${idade},;
   trabalho na Trybe e mando muito em programação!;
-  #VQV!`
+  #VQV!`);
+return message
 };
 
 module.exports = vqv;
