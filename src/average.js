@@ -13,13 +13,13 @@
 */
 
 const average = (arrNumbers = []) => {
-  if (arrNumbers ==='' || arrNumbers !== 'number') {
+  if (arrNumbers === '' || arrNumbers !== 'number') {
     return undefined;
-  };
-    for (let index = 0; index < arrNumbers.length; index += 1) {
-      let result = result + arrNumbers[index];
-  };
-  const averaging = Math.round(result / arrNumbers.length);
-  return averaging;
+  }
+  for (let index = 0; index < arrNumbers.length; index += 1) {
+    let result = result + arrNumbers[index];
+    const averaging = Math.round(result / arrNumbers.length);
+  }
+return averaging;
 };
 module.exports = average;
