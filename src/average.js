@@ -13,10 +13,12 @@
 */
 
 const average = (arrNumbers = []) => {
-  if (typeof (arrNumbers !== 'number' || arrNumbers === '')) {
+  if (arrNumbers ==='' || arrNumbers !== 'number') {
     return undefined;
-  }
-  const result = arrNumbers.reduce((acc, number) => acc + number, 0);
+  };
+    for (let index = 0; index < arrNumbers.length; index += 1) {
+      let result = result + arrNumbers[index];
+  };
   const averaging = Math.round(result / arrNumbers.length);
   return averaging;
 };
