@@ -15,7 +15,7 @@
 const average = (arrNumbers) => {
   if (arrNumbers.lenght === 0) {
     return undefined;
-  };
+  }
 
   let result = 0;
   let averaging = 0;
@@ -23,11 +23,11 @@ const average = (arrNumbers) => {
   for (let index = 0; index < arrNumbers.length; index += 1) {
     if (typeof arrNumbers[index] === 'string') {
       return undefined;
-    } 
+    }
     result += arrNumbers[index];
-}
-    averaging = Math.round(result / arrNumbers.length);
-    return averaging;
+  }
+  averaging = Math.round(result / arrNumbers.length);
+  return averaging;
 };
 
 module.exports = average;
