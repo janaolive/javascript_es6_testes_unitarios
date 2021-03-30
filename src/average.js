@@ -13,7 +13,7 @@
 */
 
 const average = (arrNumbers) => {
-  if (arrNumbers.lenght === 0) {
+  if (arrNumbers.length === 0 || arrNumbers === []) {
     return undefined;
   }
 
