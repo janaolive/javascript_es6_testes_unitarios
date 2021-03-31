@@ -24,6 +24,5 @@ describe('#numbers', () => {
     assert.strictEqual(numbers(['']), false);
     assert.strictEqual(numbers(['um', 'dois', 'tres']), false);
     assert.strictEqual(numbers(['um', 'dois', 3]), false);
-    
   });
 });
